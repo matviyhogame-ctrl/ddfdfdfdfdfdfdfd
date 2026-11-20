@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "ua.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "WorldRendererMixin",
+    "BlockMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "MinecraftClientAccessor",
+    "InteractionManagerAccessor",
+    "EntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "TitleScreenMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
